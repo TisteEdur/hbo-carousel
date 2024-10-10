@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HBO Carousel Exercise</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="wrapper">
+      <section class="text-container">
+        <div class="text__large text__large-left">
+          <span class="text__large--overlap">T</span>
+        </div>
+        <div class="text__large text__large-left">
+          <span class="text__large--overlap">O</span>
+        </div>
+        <div class="text__large text__large-left">
+          <span class="text__large--overlap">P</span>
+        </div>
+
+        <div class="text__large text__large-right">
+          <span class="text__large--overlap">1</span>
+        </div>
+        <div class="text__large text__large-right">
+          <span class="text__large--overlap">O</span>
+        </div>
+        <p class="text__small">SERIES <br />TODAY</p>
+      </section>
+
+      <section id="wrapper" class="carousel__wrapper">
+        <button id="leftButton" class="carousel__button carousel__button-left">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m15 19-7-7 7-7"
+            />
+          </svg>
+        </button>
+        <section id="carousel" class="carousel-container">
+          <div id="one" class="carousel__item">
+            <p class="carousel__item-number">1</p>
+            <div class="carousel__item-image">
+              <img src="./images/01.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">2</p>
+            <div class="carousel__item-image">
+              <img src="./images/02.webp" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">3</p>
+            <div class="carousel__item-image">
+              <img src="./images/03.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">4</p>
+            <div class="carousel__item-image">
+              <img src="./images/04.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">5</p>
+            <div class="carousel__item-image">
+              <img src="./images/05.webp" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">6</p>
+            <div class="carousel__item-image">
+              <img src="./images/06.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">7</p>
+            <div class="carousel__item-image">
+              <img src="./images/07.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">8</p>
+            <div class="carousel__item-image">
+              <img src="./images/08.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <p class="carousel__item-number">9</p>
+            <div class="carousel__item-image">
+              <img src="./images/09.jpg" alt="" />
+            </div>
+          </div>
+          <div class="carousel__item">
+            <div class="carousel__item-number">
+              <div class="carousel__item-number-text">
+                <span class="carousel__item-number--overlap">1</span>
+              </div>
+              <div class="carousel__item-number-text">
+                <span class="carousel__item-number--overlap">O</span>
+              </div>
+            </div>
+            <div class="carousel__item-image">
+              <img src="./images/10.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <button
+          id="rightButton"
+          class="carousel__button carousel__button-right"
+        >
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="m9 5 7 7-7 7"
+            />
+          </svg>
+        </button>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
