@@ -250,3 +250,22 @@ body {
     opacity: 1 !important;
     transition: all 0.4s ease-in-out;
 }
+
+.creator-container {
+    position: absolute;
+    bottom: 1em;
+    right: 5em;
+
+    & .creator-text {
+        font-family: sans-serif;
+        font-size: 1.125rem;
+        color: rgba(255, 255, 255, .9);
+
+        & .creator-hyperlink {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: rgba(46, 85, 253, 255);
+            text-decoration: none;
+        }
+    }
+}
